@@ -1,0 +1,20 @@
+{
+  uri:"https://calibre-ebook.com/downloads/demos/demo.docx"
+fileType:"docx",
+fileName:"demo.docx"
+}
+
+{
+  uri:"https://sample-videos.com/xls/Sample-Spreadsheet-10-rows.xls"
+fileType:"xls",
+fileName:"demo sample.xls"
+}
+
+
+1.react-doc-viewer的问题
+1.1 pdf不能自定义缩小放大，ref只暴露出了翻页的api
+1.2 docx和xls的高度调整不了，按照文档的方式调了，文件的容器确实是生效了，但是文件的内容高度还是没变
+1.3 图片预览有多余的样式，没有放大缩小功能
+
+2.react-file-viewer的问题
+2.1 这个预览xls会报错,docx会跨域，react-doc-viewer的问题能预览的文件类型，这个都不能预览。

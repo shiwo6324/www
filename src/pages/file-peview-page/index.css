@@ -1,0 +1,11 @@
+ /*#pdf-controls {
+  visibility: hidden;
+} 
+*/
+
+
+#pdf-controls {
+  z-index: 1000;
+}
+
+

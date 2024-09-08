@@ -4,6 +4,7 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import LoginPage from './pages/login-page/index.tsx';
 import FormPage from './pages/form-page/index.tsx';
+import FilePeviewPage from './pages/file-peview-page/index.tsx';
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: '/form',
     element: <FormPage />,
+  },
+  {
+    path: '/prveView',
+    element: <FilePeviewPage />,
   },
 ]);
 
