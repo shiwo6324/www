@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import LoginPage from './pages/login-page/index.tsx';
 import FormPage from './pages/form-page/index.tsx';
 import FilePeviewPage from './pages/file-peview-page/index.tsx';
+import ImagePreview from './pages/image-preview/index.tsx';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: '/prveView',
     element: <FilePeviewPage />,
+  },
+  {
+    path: '/imagePreview',
+    element: <ImagePreview />,
   },
 ]);
 
